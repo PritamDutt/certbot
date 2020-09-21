@@ -5,7 +5,7 @@ from acme.magic_typing import Any
 from acme.magic_typing import Dict
 
 FREEBSD_DARWIN_SERVER_ROOT = "/usr/local/etc/nginx"
-LINUX_SERVER_ROOT = "/etc/nginx"
+LINUX_SERVER_ROOT = "/etc/opt/rh/rh-nginx116/nginx"
 PKGSRC_SERVER_ROOT = "/usr/pkg/etc/nginx"
 
 if platform.system() in ('FreeBSD', 'Darwin'):
